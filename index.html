@@ -1,21 +1,56 @@
-<!-- FILEPATH: /C:/Users/shrut/OneDrive/Desktop/OIBSIP_level1/index.html -->
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Website</title>
-  </head>
-  <body>
-    <div>
-      <a href="landingpage/index.html">
-        <div style="background-color: red; height: 100px; width: 100px; display: inline-block;"></div>
-      </a>
-      <a href="portfolio/index.html">
-        <div style="background-color: green; height: 100px; width: 100px; display: inline-block;"></div>
-      </a>
-      <a href="tempconv/index.html">
-        <div style="background-color: blue; height: 100px; width: 100px; display: inline-block;"></div>
-      </a>
-    </div>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    div {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    a {
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .box {
+      display: inline-block;
+      height: 110px;
+      width: 190px;
+      line-height: 100px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .landing-page { background-color: #e74c3c; }
+    .portfolio-page { background-color: #27ae60; }
+    .temperature-converter { background-color: #3498db; }
+  </style>
+</head>
+<body>
+  <div>
+    <a href="landingpage/index.html">
+      <div class="box landing-page">Landing Page - click here</div>
+    </a>
+    <a href="portfolio/index.html">
+      <div class="box portfolio-page">Portfolio Page - click here</div>
+    </a>
+    <a href="tempconv/index.html">
+      <div class="box temperature-converter">Temp Converter - click here</div>
+    </a>
+  </div>
+</body>
 </html>
