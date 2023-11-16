@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>SHRUTI</h1>
+            <h2>Web Developer</h2>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Greetings! I'm Shruti, a third-year CSE student at IIIT Sri City. With a passion for web development, I've delved into the field through two rewarding internships, refining my skills and understanding. Eager to bridge theory with practice, I thrive on creating impactful solutions and look forward to the challenges ahead in my academic and professional journey..</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="images/proj1.jpg" style="margin-left: 35%; height: 18pc;" width="30%" alt="Project 1">
+                <h3>Graduates World</h3>
+                <p>Developed the ”Graduates World” platform to empower recent graduates by connecting them with relevant
+                    job opportunities that align with their skills and aspirations.</p>
+            </div>
+            <div class="project">
+                <img src="images/proj2.webp" alt="Project 2">
+                <h3>User Management System</h3>
+                <p>Developed a comprehensive User Management System utilizing Express.js, MongoDB, and Node.js to
+                    efficiently manage user data and interactions.To manage the user’s details.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>MongoDB</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p>Bachelor of Science in Computer Science<br>IIIT SRICITY, 2025</p>
+            <!-- Add more education details as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
